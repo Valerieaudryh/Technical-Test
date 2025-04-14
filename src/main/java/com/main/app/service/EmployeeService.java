@@ -10,7 +10,7 @@ import java.util.List;
 
 @Service
 public class EmployeeService {
-    private final String API_URL = "https://dummy.restapiexample.com/api/v1/employees";
+    private final String API_URL = "https://dummy.restapiexample.com/";
 
     @Autowired
     private RestTemplate restTemplate;
